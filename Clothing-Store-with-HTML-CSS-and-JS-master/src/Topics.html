@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titles</title>
+    
+</head>
+
+<style>
+    li{
+        padding-top: 30px;
+    }
+    a{
+        color:black;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 30px;
+        border: 10px;
+        text-decoration: wavy;
+        background-color: gainsboro;
+        background-image: linear-gradient(rgb(228, 225, 79), rgb(194, 194, 181));
+        padding: 5px 11px;
+        border-style: 2px solid;
+        border-radius: 20px;
+    }
+
+    a:hover{
+        border:1px solid blue;
+        background-image: linear-gradient(to right, red, orange);
+
+    }
+</style>
+
+<body background="../images/back.jpg">
+    <ul style="align-items: center; text-align: center; list-style-type: none; margin-top: 250px;">
+        <li>
+            <a onclick="parent.changeLink('Saree')">Saree</a>
+        </li>
+        <li>
+            <a onclick="parent.changeLink(`Lehnga`)">Lehnga</a>
+        </li>
+        <li>
+            <a onclick="parent.changeLink(`SummerCollections`)">Summer Collections</a>
+        </li>
+        <li>
+            <a onclick="parent.changeLink(`WinterCollections`)">Winter Collections</a>
+        </li>
+        <li>
+            <a onclick="parent.changeLink(`Suits`)">Suits</a>
+        </li>
+        <li>
+            <a onclick="parent.changeLink(`Kurti`)">Kurti</a>
+        </li>
+    </ul>
+    
+</body>
+</html>
